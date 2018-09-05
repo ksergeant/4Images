@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		0A9C24061D665D4400E29497 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C24051D665D4400E29497 /* main.cpp */; };
+		0A9C24151D665FA200E29497 /* Lettre.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C24131D665FA200E29497 /* Lettre.cpp */; };
+		0A9C24181D66613500E29497 /* Mot3L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C24161D66613500E29497 /* Mot3L.cpp */; };
+		0A9C241B1D66614B00E29497 /* Mot4L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C24191D66614B00E29497 /* Mot4L.cpp */; };
+		0A9C24201D66622D00E29497 /* Mot5L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C241E1D66622D00E29497 /* Mot5L.cpp */; };
+		0A9C24231D66624800E29497 /* Mot6L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C24211D66624800E29497 /* Mot6L.cpp */; };
+		0A9C24261D66627100E29497 /* Mot7L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C24241D66627100E29497 /* Mot7L.cpp */; };
+		0A9C24291D66628200E29497 /* Mot8L.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0A9C24271D66628200E29497 /* Mot8L.cpp */; };
+		0AEBCFC61F05636700285CA4 /* Fonctions.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0AEBCFC41F05636700285CA4 /* Fonctions.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +32,23 @@
 
 /* Begin PBXFileReference section */
 		0A9C24021D665D4400E29497 /* Image */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Image; sourceTree = BUILT_PRODUCTS_DIR; };
-		0A9C24051D665D4400E29497 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		0A9C24051D665D4400E29497 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
+		0A9C24131D665FA200E29497 /* Lettre.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Lettre.cpp; path = Class/Lettre.cpp; sourceTree = "<group>"; };
+		0A9C24141D665FA200E29497 /* Lettre.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Lettre.hpp; path = Class/Lettre.hpp; sourceTree = "<group>"; };
+		0A9C24161D66613500E29497 /* Mot3L.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mot3L.cpp; sourceTree = "<group>"; };
+		0A9C24171D66613500E29497 /* Mot3L.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mot3L.hpp; sourceTree = "<group>"; };
+		0A9C24191D66614B00E29497 /* Mot4L.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mot4L.cpp; sourceTree = "<group>"; };
+		0A9C241A1D66614B00E29497 /* Mot4L.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mot4L.hpp; sourceTree = "<group>"; };
+		0A9C241E1D66622D00E29497 /* Mot5L.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mot5L.cpp; sourceTree = "<group>"; };
+		0A9C241F1D66622D00E29497 /* Mot5L.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mot5L.hpp; sourceTree = "<group>"; };
+		0A9C24211D66624800E29497 /* Mot6L.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mot6L.cpp; sourceTree = "<group>"; };
+		0A9C24221D66624800E29497 /* Mot6L.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mot6L.hpp; sourceTree = "<group>"; };
+		0A9C24241D66627100E29497 /* Mot7L.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mot7L.cpp; sourceTree = "<group>"; };
+		0A9C24251D66627100E29497 /* Mot7L.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mot7L.hpp; sourceTree = "<group>"; };
+		0A9C24271D66628200E29497 /* Mot8L.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mot8L.cpp; sourceTree = "<group>"; };
+		0A9C24281D66628200E29497 /* Mot8L.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mot8L.hpp; sourceTree = "<group>"; };
+		0AEBCFC41F05636700285CA4 /* Fonctions.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Fonctions.cpp; sourceTree = "<group>"; };
+		0AEBCFC51F05636700285CA4 /* Fonctions.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Fonctions.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +81,33 @@
 		0A9C24041D665D4400E29497 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				0A9C241C1D66615B00E29497 /* Include */,
 				0A9C24051D665D4400E29497 /* main.cpp */,
+				0AEBCFC41F05636700285CA4 /* Fonctions.cpp */,
+				0AEBCFC51F05636700285CA4 /* Fonctions.hpp */,
+				0A9C24131D665FA200E29497 /* Lettre.cpp */,
+				0A9C24161D66613500E29497 /* Mot3L.cpp */,
+				0A9C24191D66614B00E29497 /* Mot4L.cpp */,
+				0A9C241E1D66622D00E29497 /* Mot5L.cpp */,
+				0A9C24211D66624800E29497 /* Mot6L.cpp */,
+				0A9C24241D66627100E29497 /* Mot7L.cpp */,
+				0A9C24271D66628200E29497 /* Mot8L.cpp */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		0A9C241C1D66615B00E29497 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				0A9C24141D665FA200E29497 /* Lettre.hpp */,
+				0A9C24171D66613500E29497 /* Mot3L.hpp */,
+				0A9C241A1D66614B00E29497 /* Mot4L.hpp */,
+				0A9C241F1D66622D00E29497 /* Mot5L.hpp */,
+				0A9C24221D66624800E29497 /* Mot6L.hpp */,
+				0A9C24251D66627100E29497 /* Mot7L.hpp */,
+				0A9C24281D66628200E29497 /* Mot8L.hpp */,
+			);
+			name = Include;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -88,7 +136,7 @@
 		0A9C23FA1D665D4400E29497 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Kevin;
 				TargetAttributes = {
 					0A9C24011D665D4400E29497 = {
@@ -118,7 +166,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A9C24231D66624800E29497 /* Mot6L.cpp in Sources */,
+				0A9C24261D66627100E29497 /* Mot7L.cpp in Sources */,
+				0A9C24181D66613500E29497 /* Mot3L.cpp in Sources */,
+				0A9C24201D66622D00E29497 /* Mot5L.cpp in Sources */,
 				0A9C24061D665D4400E29497 /* main.cpp in Sources */,
+				0A9C241B1D66614B00E29497 /* Mot4L.cpp in Sources */,
+				0A9C24291D66628200E29497 /* Mot8L.cpp in Sources */,
+				0AEBCFC61F05636700285CA4 /* Fonctions.cpp in Sources */,
+				0A9C24151D665FA200E29497 /* Lettre.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +195,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -183,8 +241,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -239,6 +299,7 @@
 				0A9C240B1D665D4400E29497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
